@@ -1,0 +1,293 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<plist version="1.0">
+
+<dict>
+
+   <!-- array of downloads.-->
+
+   <key>items</key>
+
+   <array>
+
+       <dict>
+
+           <!-- an array of assets to download -->
+
+           <key>assets</key>
+
+           <array>
+
+               <!-- software-package: the ipa to install.-->
+
+               <dict>
+
+                   <!-- required.the asset kind.-->
+
+                   <key>kind</key>
+
+                   <string>software-package</string>
+
+                   <!-- optional.md5 every n bytes.will restart a chunk if md5 fails.-->
+
+                   <key>md5-size</key>
+
+                   <integer>131072</integer>
+
+                   <!-- optional.array of md5 hashes for each "md5-size" sized chunk.-->
+
+                   <key>md5s</key>
+
+                   <array>
+
+                       <string>4c56ef72ea662ec520136bd60073576a</string>
+
+                       <string>a3ab1dcd1dfd0fa7c7820988a6f3c07c</string>
+
+                       <string>1b5bfb356cdc7a0723897a5a3d469cf1</string>
+
+                       <string>0687e415232a765fa04c470c7c850c2b</string>
+
+                       <string>d0d7661f557e30846282c781bc3b450a</string>
+
+                       <string>bc2fb5e57ec46537c108e5e0c3ba3fc1</string>
+
+                       <string>cde5642c3402da7b901f37452ef32850</string>
+
+                       <string>15076841361513445f4ff8dd554dd82c</string>
+
+                       <string>c544f067491716fa63d5dd219c75ddc7</string>
+
+                       <string>9c86aaa31f6c27b025335251026f2262</string>
+
+                       <string>c3c207a10c12f631fe1487f26879d8ad</string>
+
+                       <string>22405908357b54fee8bad168e5f6016e</string>
+
+                       <string>ed3ad1fee2ac6bca7d340405ddba7e54</string>
+
+                       <string>f01d13b865dae81075b9225489710d1a</string>
+
+                       <string>823b2f685f0a5e4306d3495d1bcc480e</string>
+
+                       <string>5893e070d4d06b26990862f3b36b3ea5</string>
+
+                       <string>89ffeecf6bcee85a0e8caebcf020dc87</string>
+
+                       <string>b28676b8c0089777033855a3483fdfe2</string>
+
+                       <string>9c4a2a981cccb7c0f00510c8b00bb7db</string>
+
+                       <string>6222899c8f6a110278e4408f4e4ce9ce</string>
+
+                       <string>a50317f693045a1214de237e202f5972</string>
+
+                       <string>69f8a91ac39557b00fa927866edb306e</string>
+
+                       <string>959581edf14574622316c9e3db94b8a7</string>
+
+                       <string>176d422f2039ee21462aed95499b369c</string>
+
+                       <string>384cc97a8def05b38b155e414760d580</string>
+
+                       <string>44a5fd6062225aaf563bc54aff48731c</string>
+
+                       <string>563205fb3e8be10603ce1df28e73830a</string>
+
+                       <string>47d36483397c2f7b661ef961d79ae10e</string>
+
+                       <string>161b912430034c004a7388256ce4c37f</string>
+
+                       <string>0b0388b2ddf17887a9dbcba7e4c48858</string>
+
+                       <string>d0c2412ea4202e799b4bc97809c693e2</string>
+
+                       <string>09a07b7103d00f219b927cfd80a7ffd3</string>
+
+                       <string>7db90b4162a8eb25e5dadacfef14c515</string>
+
+                       <string>1d1f9e205dc7dc65a599c517a16d6385</string>
+
+                       <string>13d194deb11de44e7c4bfb6c794138dd</string>
+
+                       <string>f9513de9460967a98d75058caca58d90</string>
+
+                       <string>ec97481c0920ef4bdd3962337b7e9775</string>
+
+                       <string>91bd42fc1f0c657d0f7999a7349c60d1</string>
+
+                       <string>787fa799db91f3590489eb0e1b8b769a</string>
+
+                       <string>253410f7417758391f6e504e9993670b</string>
+
+                       <string>5078a8476af956873674957944dce882</string>
+
+                       <string>85c37b92b9eb0161ebf7477fa45483d7</string>
+
+                       <string>3aa3008fd8bcbf6cdf45a029ab298c56</string>
+
+                       <string>84db5063fcf6a2e9f30d81f247b024f6</string>
+
+                       <string>3ec046cacc323f530baec230bcb5aa94</string>
+
+                       <string>4820eaef7250cbbf8da5ae600e5e219b</string>
+
+                       <string>6ad1bae29c52f1dba620397df4bb6962</string>
+
+                       <string>717c3e440c641ff2173d92ca36cb48e1</string>
+
+                       <string>e5b5452eff27f607b32473bef6fca585</string>
+
+                       <string>5f9cf38c32d7882bba1d48c639e5cab6</string>
+
+                       <string>2e2ef4b852dffa591dd966e41c03ba59</string>
+
+                       <string>d94d486813df185885517b22c799c18d</string>
+
+                       <string>5c84e492914a3e537b27c4dd778ac808</string>
+
+                       <string>21255b8f3fad9d9f29fdfa81307fd9d9</string>
+
+                       <string>a068250dcc3796e562033f2906f4e586</string>
+
+                       <string>8d32a1386b058104fe10d82fac3455ef</string>
+
+                       <string>6ae8d71f3a2a232cecd1c7547cd35a33</string>
+
+                       <string>ebd7c8b5e730d46876182cdfb7def551</string>
+
+                       <string>bfffa3db05cbdc2693b1987b1bc34571</string>
+
+                       <string>a80caabd4d8d547e0c7994febe80031b</string>
+
+                       <string>d6c38a9e26584da010c660d6aa4e90d7</string>
+
+                       <string>ddadc9d6d59b0f12ba9ff0628d66f1c7</string>
+
+                       <string>6f093c7c968372e85623659cc8c838bb</string>
+
+                       <string>f9dd52c99bfa340b2e5c7d614edd9ef2</string>
+
+                       <string>05c1593f08d27e4e01ec8376f1b32193</string>
+
+                       <string>f8393ed0561354abfcff1498276b4251</string>
+
+                       <string>3c581ce2e56b258eebf4ef36bf365330</string>
+
+                       <string>cfa8ee1e15616c201c5dd4798a4a3b79</string>
+
+                       <string>0c442cc63455c7594a66f6713671e978</string>
+
+                       <string>94d3164861dc56a48584993e04e628ec</string>
+
+                       <string>2559575f537c92d85a9cc0f2f742b5e2</string>
+
+                       <string>0a2761cf7b9d4de2da250387125f378e</string>
+
+                       <string>47f9baa75ddc177815b4287b583306a2</string>
+
+                       <string>3a2f0c49323c73c54263c87eb236debb</string>
+
+                       <string>2f58e2dc1776895eaf5da7160d1b5245</string>
+
+                       <string>c74189597c204382203a50eba5e5338d</string>
+
+                       <string>976ee51f4af16be5f1ecd93222669212</string>
+
+                       <string>c713077a237264d52d1bdc688cafcbe8</string>
+
+                   </array>
+
+                   <!-- required.the URL of the file to download.-->
+
+                   <key>url</key>
+
+                   <string>http://service.imagpay.com/pay/apk/QDBpay.ipa</string>
+
+               </dict>
+
+               <!-- display-image: the icon to display during download .-->
+
+               <dict>
+
+                   <key>kind</key>
+
+                   <string>display-image</string>
+
+                   <!-- optional.indicates if icon needs shine effect applied.-->
+
+                   <key>needs-shine</key>
+
+                   <true/>
+
+                   <key>url</key>
+
+                   <string>http://service.imagpay.com/pay/apk/QDBpay.png</string>
+
+               </dict>
+
+               <!-- full-size-image: the large 512x512 icon used by iTunes.-->
+
+               <dict>
+
+                   <key>kind</key>
+
+                   <string>full-size-image</string>
+
+                   <!-- optional.one md5 hash for the entire file.-->
+
+                   <key>md5</key>
+
+                   <string>b5d265733c7e4f9db7a8ac4293259761</string>
+
+                   <key>needs-shine</key>
+
+                   <true/>
+
+                   <key>url</key><string>http://service.imagpay.com/pay/apk/QDBpay.png</string>
+
+               </dict>
+
+           </array><key>metadata</key>
+
+           <dict>
+
+               <!-- required -->
+
+               <key>bundle-identifier</key>
+
+               <string>com.example.qd</string>
+
+               <!-- optional (software only) -->
+
+               <key>bundle-version</key>
+
+               <string>1.1.2</string>
+
+               <!-- required.the download kind.-->
+
+               <key>kind</key>
+
+               <string>software</string>
+
+               <!-- optional. displayed during download; typically company name -->
+
+               <key>subtitle</key>
+
+               <string></string>
+
+               <!-- required.the title to display during the download.-->
+
+               <key>title</key>
+
+               <string>钱兜宝</string>
+
+           </dict>
+
+       </dict>
+
+   </array>
+
+</dict>
+
+</plist>
